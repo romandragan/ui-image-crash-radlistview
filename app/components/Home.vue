@@ -14,7 +14,7 @@
                         <NSImg
                             :src="item" 
                             width="150" 
-                            height="250"
+                            height="100"
                             roundAsCircle="true"
                             stretch="aspectFill"
                             placeholderImageUri="res://map_thumbnail_fallback"

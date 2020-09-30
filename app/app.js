@@ -16,6 +16,8 @@ Vue.use(RadListView);
 
 application.on(application.launchEvent, () => {
     imageModule.initialize({ isDownsampleEnabled: true });
+
+    imageModule.getImagePipeline().clearCaches();
 });
 
 application.on(application.exitEvent, () => imageModule.shutDown());
