@@ -27,20 +27,25 @@
     "detail",
     "category-general"
   ],
+  "scripts": {
+    "ios": "ns run ios",
+    "prepare:ios": "ns prepare ios"
+  },
   "dependencies": {
-    "@nativescript-community/ui-image": "^4.0.7",
-    "@nativescript/core": "~7.0.0",
+    "@nativescript-community/ui-image": "4.0.11",
+    "@nativescript/core": "7.0.12",
     "@nativescript/theme": "~2.3.0",
-    "nativescript-ui-listview": "^9.0.2",
-    "nativescript-vue": "~2.8.0"
+    "nativescript-ui-listview": "9.0.4",
+    "nativescript-vue": "2.8.1"
   },
   "devDependencies": {
     "@babel/core": "~7.1.0",
     "@babel/preset-env": "~7.1.0",
-    "@nativescript/ios": "7.0.0",
+    "@nativescript/ios": "7.0.4",
     "@nativescript/webpack": "~3.0.0",
     "babel-loader": "~8.0.0",
-    "nativescript-vue-template-compiler": "~2.8.0",
+    "nativescript": "7.0.11",
+    "nativescript-vue-template-compiler": "2.8.1",
     "node-sass": "^4.7.1",
     "vue-loader": "~15.9.3"
   },

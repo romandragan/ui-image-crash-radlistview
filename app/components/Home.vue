@@ -40,7 +40,7 @@
     },
 
     mounted () {
-        this.itemList = this.createRandomNumbers(100)
+        this.itemList = this.createRandomNumbers(200)
 
         setTimeout(() => {
             this.loaded = true
